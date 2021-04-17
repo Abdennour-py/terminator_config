@@ -1,0 +1,30 @@
+[global_config]
+  title_transmit_fg_color = "#bdcbd7"
+  title_transmit_bg_color = "#161a1e"
+  title_inactive_fg_color = "#bdcbd7"
+  title_inactive_bg_color = "#548b82"
+[keybindings]
+  zoom_in = <Primary>KP_Add
+  zoom_out = <Primary>KP_Subtract
+  zoom_normal = <Primary>KP_0
+[profiles]
+  [[default]]
+    background_color = "#0c0e14"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#bdcbd7"
+    font = Liberation Mono 14
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#161a1e:#e43b7c:#3ae5da:#3ae5da:#aa00ef:#7c8d9c:#a2b7c8:#dde3ea:#548b82:#a58353:#439084:#4ca1d1:#e26d92:#7db156:#e43b7c:#c180d7"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
